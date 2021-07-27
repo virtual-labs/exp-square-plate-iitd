@@ -90,22 +90,59 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1. Which stress is neglected for thin plates?", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "stress in the x direction (&#963;<sub>X X</sub>)", ///// Write the option 1 inside double quotes
+                b: "stress in the z direction (&#963;<sub>z z</sub>)", ///// Write the option 2 inside double quotes
+                c: "stress in the y direction (&#963;<sub>y y</sub>)", ///// Write the option 1 inside double quotes
+                d: "stress in the xz direction (&#963;<sub>x z</sub>)", ///// Write the option 2 inside double quotes
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
+        {
+            question: "2. For plate dynamic equilibrium equations is function of which axis?", ///// Write the question inside double quotes
+            answers: {
+                a: "Function of x, z, and t.", ///// Write the option 1 inside double quotes
+                b: "Function of y, z, and t.", ///// Write the option 2 inside double quotes
+                c: "Function of x, y, and t.", ///// Write the option 1 inside double quotes
+                d: "Function of z, y, and t.", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "3. The linear strain-displacement relations are given by?", ///// Write the question inside double quotes
+            answers: {
+                a: "<img src='images/pr1.png' style='height: 43px' draggable='false'>", ///// Write the option 1 inside double quotes
+                b: "<img src='images/pr2.png' style='height: 43px' draggable='false'>", ///// Write the option 2 inside double quotes
+                c: "<img src='images/pr3.png' style='height: 43px' draggable='false'>", ///// Write the option 1 inside double quotes
+                d: "<img src='images/pr4.png' style='height: 43px' draggable='false'>", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "4. The flexural rigidity of the plate, is given by?", ///// Write the question inside double quotes
+            answers: {
+                a: "<img src='images/pr5.png' style='height: 43px' draggable='false'>", ///// Write the option 1 inside double quotes
+                b: "<img src='images/pr6.png' style='height: 43px' draggable='false'>", ///// Write the option 2 inside double quotes
+                c: "<img src='images/pr7.png' style='height: 43px' draggable='false'>", ///// Write the option 1 inside double quotes
+                d: "<img src='images/pr8.png' style='height: 43px' draggable='false'>", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
+
+        {
+            question: "5. Which of following is denote the biharmonic operator?", ///// Write the question inside double quotes
+            answers: {
+                a: "&#8711;<sup>2</sup>", ///// Write the option 1 inside double quotes
+                b: "&#8711;<sup>3</sup>", ///// Write the option 2 inside double quotes
+                c: "&#8711;<sup>5</sup>", ///// Write the option 1 inside double quotes
+                d: "&#8711;<sup>4</sup>", ///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
 
 
 
