@@ -1,1 +1,1 @@
-## Free Vibration of Square plate
+## Free vibration of square plate
