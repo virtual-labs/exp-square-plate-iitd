@@ -6,9 +6,7 @@
 
 </strong>
 
-The small deflection theory of thin plates, called classical plate theory or Kirchhoff theory, is based on assumptions similar to those used in thin beam or Euler-Bernoulli beam theory.
-
-The following assumptions are made in thin or classical plate theory:
+The small deflection theory of thin plates, called classical plate theory or Kirchhoff theory, is based on assumptions similar to those used in thin beam or Euler-Bernoulli beam theory. The following assumptions are made in thin or classical plate theory:
 
 1. The thickness of the plate (h) is small compared to its lateral dimensions.
 
@@ -21,7 +19,9 @@ remains as the neutral plane after deformation or bending.
 
 5. The transverse normal strain &#949;<sub>zz</sub> under transverse loading can be neglected. The transverse normal stress &#963;<sub>zz</sub> is small and hence can be neglected compared to the other components of stress.
 
-Some of the important relations and equations are summarized below for a rectangular plate (see Fig. 1.1). Moment resultant-transverse displacement relations:
+Some of the important relations and equations are summarized below for a rectangular plate (see Fig. 1.1).
+
+Moment resultant-transverse displacement relations:
 <br>
 <img src="images/th1.png" style="" draggable="false">
 <br>
@@ -31,11 +31,16 @@ where D, the flexural rigidity of the plate, is given by
 <br>
 
 where h is the thickness, E is Young's modulus, and v is Poisson's ratio of the plate.
+
 Shear force resultants:<br>
 <img src="images/th3.png" style="" draggable="false" draggable="false"><br><br>
 Equation of motion (force equilibrium in the z direction):<br>
 <img src="images/th4.png" style="" draggable="false" draggable="false"><br><br>
-where &#961; is the density of the plate and &#402; is the distributed transverse load acting on the plate per unit area. 1.2 Variational Approach Because of assumptions 4 and 5 in Section 1.1, the state of stress in a thin plate can be assumed to be plane stress. Thus, the nonzero stresses induced in a thin plate are given by &#963;<sub>xx</sub>, &#963;<sub>yy</sub>, and &#963;<sub>xy</sub>. The strain energy density &#960;0 of the plate can be expressed as<br>
+where &#961; is the density of the plate and &#402; is the distributed transverse load acting on the plate per unit area.
+
+<b>1.2 Variational Approach</b>
+
+Because of assumptions 4 and 5 in Section 1.1, the state of stress in a thin plate can be assumed to be plane stress. Thus, the nonzero stresses induced in a thin plate are given by &#963;<sub>xx</sub>, &#963;<sub>yy</sub>, and &#963;<sub>xy</sub>. The strain energy density &#960;0 of the plate can be expressed as<br>
 <img src="images/th5.png" style="" draggable="false"><br><br>
 The strain components can be expressed in terms of the transverse displacement of the middle surface of the plate, w(x, y), as follows:<br>
 <img src="images/th6.png" style="" draggable="false"><br><br>
@@ -70,7 +75,7 @@ The generalized Hamilton's principle can be used to derive the equations of moti
 Substituting Eqs. (1.20) - (1.22) into Eq. (1.23), Hamilton's principle can be written as<br>
 <img src="images/th15.png" style="" draggable="false"><br><br>
 
-where &#8711;<sup>2</sup>denotes the harmonic operator with<br>
+where &#8711;<sup>2</sup> denotes the harmonic operator with<br>
 <img src="images/th16.png" style="" draggable="false"><br><br>
 
 Performing the variation of the first integral term in Eq. (1.24), we have<br>
@@ -102,8 +107,11 @@ Eq. (1.33) can be rewritten as
 where &#952; is the angle between the outward drawn normal to the boundary (n) and the x axis as
 shown in Fig. 1.1. The quantities &#8706;(&#948;w)/&#8706;x and &#8706;(&#948;w)/&#8706;y appearing in h1 and h1
 [Eqs. (1.31) and (1.32)] can be transformed into the new coordinate system (n, s) as follows:<br>
-<img src="images/th25.png" style="" draggable="false"><br> 
+
+<img src="images/th25.png" style="height: 350px;" draggable="false"><br> 
+
 <img src="images/th26.png" style="" draggable="false"><br><br>
+
 where s is the tangential direction to the boundary. In view of Eqs. (1.37) and (1.38), Eqs. (1.31)
 and (1.32) can be expressed as<br>
  
@@ -129,7 +137,7 @@ The variation of the third integral term in Eq. (1.24) can be expressed as<br>
 By using integration by parts with respect to time, the integral I<sub>3</sub> can be written as<br> 
 <img src="images/th34.png" style="" draggable="false"><br><br>
 
-Since the variation of the displacement (&#8706;w) is zero at t1 𝑎nd t2
+Since the variation of the displacement (&#8706;w) is zero at t<sub>1</sub> 𝑎nd t<sub>2</sub>
 , Eq. (1.47) reduces to<br> 
 <img src="images/th35.png" style="" draggable="false"><br><br>
 
