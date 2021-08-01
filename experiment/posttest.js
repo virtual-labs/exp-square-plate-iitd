@@ -112,7 +112,7 @@
         },
 
         {
-            question: "3. how many mode the experiment was performed?", ///// Write the question inside double quotes
+            question: "3. How many mode the experiment was performed?", ///// Write the question inside double quotes
             answers: {
                 a: "mode 2 and mode 3", ///// Write the option 1 inside double quotes
                 b: "mode 1 and mode 3", ///// Write the option 2 inside double quotes
